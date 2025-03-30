@@ -7,7 +7,8 @@ import { Person } from '../models/person.model';
   providedIn: 'root'
 })
 export class PersonService {
-  private apiUrl = 'http://localhost:3000/person';
+  // private apiUrl = 'http://localhost:3000/person';
+  private apiUrl = 'https://list-manager-backend.onrender.com/person';
 
   constructor(private http: HttpClient) { }
 
